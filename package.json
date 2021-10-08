@@ -1,0 +1,56 @@
+{
+	"name": "sofa",
+	"displayName": "Sofa",
+	"description": "Sofa (StackOverFlow Answers)",
+	"version": "0.0.2",
+    "publisher": "msgul",
+	"engines": {
+		"vscode": "^1.60.0"
+	},
+	"categories": [
+		"Other"
+	],
+    "icon": "media/icon.png",
+	"activationEvents": [
+		"onCommand:sofa.getcode"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "sofa.getcode",
+				"title": "Get the Code"
+			}
+		],
+		"keybindings": [
+			{
+				"command": "sofa.getcode",
+				"key": "ctrl+enter",
+				"mac": "cmd+enter",
+				"when": "editorTextFocus"
+			}
+		]
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.60.0",
+		"@types/glob": "^7.1.4",
+		"@types/mocha": "^9.0.0",
+		"@types/node": "14.x",
+		"eslint": "^7.32.0",
+		"glob": "^7.1.7",
+		"mocha": "^9.1.1",
+		"typescript": "^4.4.3",
+		"@vscode/test-electron": "^1.6.2"
+	},
+	"dependencies": {
+		"cheerio": "^1.0.0-rc.10",
+		"clipboardy": "^2.3.0",
+		"request": "^2.88.2",
+		"request-promise": "^4.2.6"
+	}
+}
