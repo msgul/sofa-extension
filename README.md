@@ -4,7 +4,7 @@ Sofa is a  **open-source**  MIT-licensed  **vscode extension**  that is designed
 
 ## Features
 
-- Retrieves all answers and scrape the code out of them for you to use it. 
+- Retrieves all answers and scrapes the code out of them for you to use it. 
 - Retrieved codes can be selected from vscode QuickPick.
 - Language of the current file is added to your question automatically.
 - Opens your browser and directs you to the stackoverflow page (optional)
