@@ -1,17 +1,17 @@
-# Sofa (Stackoverflow Answers) Extension
+# Sofa (StackOverflow Answers) Extension
 
-Sofa is a  **open-source**  MIT-licensed  **vscode extension**  that is designed to speed up your coding time by bringing you the answers related to your problem on stackoverflow.com.
+Sofa is an **open-source**  MIT-licensed  **vscode extension**  that is designed to speed up your coding time by bringing you the answers related to your problem on stackoverflow.com.
 
 ## Features
 
 - Retrieves all answers and scrapes the code out of them for you to use it. 
 - Retrieved codes can be selected from vscode QuickPick.
 - Language of the current file is added to your question automatically.
-- Opens your browser and directs you to the stackoverflow page (optional)
+- Opens your browser and directs you to the StackOverflow page (optional)
 
 ## Usage
 
-- Type your problem and press ctrl + enter to retrieve the codes. You can pick on of the results from vscode.QuickPick. Press ctrl + enter again to get the stackoverflow question page.
+- Type your problem and press ctrl + enter to retrieve the codes. You can pick one of the results from vscode.QuickPick. Press ctrl + enter again to get the StackOverflow question page.
 
 ![alt text](media/demo.gif)
 
@@ -46,8 +46,3 @@ for (var i = 0; i < all.length; i++) {
     console.log(all[i].nodeName);
 }
 ```
-
-
-
-
-
